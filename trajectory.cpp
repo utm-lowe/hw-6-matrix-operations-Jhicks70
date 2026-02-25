@@ -87,7 +87,16 @@ int main() {
         // 2. Update the velocity based on the gravitational acceleration.
         // 3. If the current position exceeds the grid height, update the grid
         //    height to the y coordinate + 1.
-        // YOUR CODE HERE
+        // Update position: X = X + V*dt
+        position = position + velocity * deltaTime;
+        
+        // Update velocity: V = V + A*dt
+        velocity = velocity + gravity * deltaTime;
+        
+        // Update grid height if needed
+        if (position.at(1, 0) + 1 > gridHeight) {
+            gridHeight = static_cast<int>(position.at(1, 0)) + 1;
+        }
 
         // We will be talking about the vector object a little later. If you 
         // want to read ahead though, I encourage that!
