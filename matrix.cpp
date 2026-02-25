@@ -1,6 +1,6 @@
 /**
  * @file matrix.cpp
- * @author your name (you@domain.com)
+ * @author Jacob Hicks (jhicks70@ut.utm.edu)
  * @brief Implementation of the Matrix class and operators.
  * @version 0.1
  * @date 2024-10-08
