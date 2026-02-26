@@ -15,9 +15,9 @@ int main()
     Matrix b{3,3};
 
     // Test out the input
-    cout << "Enter a 3x3 matrix (A)" << endl;
+    cout << "Enter a 3x3 matrix (A)\n";
     cin >> a;
-    cout << "Enter a 3x3 matrix (B)" << endl;
+    cout << "Enter a 3x3 matrix (B)\n";
     cin >> b;
 
     // Test out the output

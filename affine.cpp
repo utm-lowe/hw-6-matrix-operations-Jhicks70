@@ -199,7 +199,7 @@ Matrix transformMenu()
             case 'D':
                 break;
             default:
-                cout << "Invalid choice. Please try again." << endl;
+                cout << "Invalid choice. Please try again.\n";
                 break;
         }
 
